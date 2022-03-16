@@ -1,0 +1,45 @@
+.brands {
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    padding: 18px 130px 0;
+  }
+  &__electrek {
+    img {
+      max-width: 280px;
+      max-height: 31px;
+      padding: 0px 65px;
+    }
+  }
+  &__techcrunch {
+    img {
+      max-width: 280px;
+      max-height: 48px;
+      padding: 0px 42px;
+    }
+  }
+  &__popularmech {
+    img {
+      max-width: 280px;
+      max-height: 41px;
+      padding: 0px 65px;
+    }
+  }
+  &__wired {
+    img {
+      max-width: 280px;
+      max-height: 33px;
+      padding: 0px 61px;
+    }
+  }
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10px;
+  li:not(:last-child) {
+    margin-right: 20px;
+  }
+}

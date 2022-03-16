@@ -1,0 +1,51 @@
+.header__top {
+  background-color: $color-text;
+  color: #fbfbfb;
+  text-align: center;
+  font-size: 12px;
+  line-height: 15px;
+  padding: 7px 0px;
+}
+
+.header__bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__logo {
+  max-width: 183px;
+  width: 100%;
+  margin-right: 113px;
+  img {
+    margin: 15px 0px 15px 11px;
+    max-width: 160px;
+    max-height: 36px;
+  }
+}
+.header__nav {
+  display: flex;
+  align-items: center;
+  ul {
+    display: flex;
+    align-items: center;
+    padding-left: 0px;
+    margin-top: 22px;
+    li {
+      margin-right: 22px;
+      font-size: 14px;
+      text-transform: uppercase;
+      line-height: 21px;
+      font-family: "Roboto", sans-serif;
+      letter-spacing: 1px;
+    }
+    li:last-child {
+      margin-right: 350px;
+    }
+  }
+  .account {
+    margin-right: 11px;
+  }
+  .bag {
+    margin-right: 20px;
+  }
+}

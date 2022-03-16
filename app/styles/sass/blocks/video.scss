@@ -1,0 +1,9 @@
+.video {
+  &__content {
+    display: flex;
+    max-height: 304px;
+  }
+  &__rev {
+    margin-right: 20px;
+  }
+}

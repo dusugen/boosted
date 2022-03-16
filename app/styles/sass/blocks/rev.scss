@@ -1,0 +1,39 @@
+@import "variable.scss";
+
+.rev {
+  &__wrapper {
+    display: flex;
+    margin-bottom: 45px;
+  }
+  &__img {
+    display: flex;
+  }
+  &__picture {
+    width: 380px;
+    height: 380px;
+    object-fit: contain;
+
+    &:not(:last-child) {
+      margin-right: 20px;
+    }
+  }
+  .rev__content {
+    margin-left: 40px;
+    margin-top: 67px;
+  }
+  .rev__title {
+    font-size: 32px;
+    margin-bottom: 21px;
+  }
+  .rev__text {
+    max-width: 339px;
+    font-size: 15px;
+    line-height: 22.5px;
+    margin-bottom: 18px;
+  }
+}
+
+.btn--erev {
+  font-size: 15px;
+  padding: 5px 16px;
+}
