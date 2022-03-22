@@ -33,28 +33,29 @@
   &__new-price {
     color: #000;
   }
-}
-li:first-child {
-  position: relative;
-  &::before {
-    position: absolute;
-    content: "";
-    top: 55%;
-    left: 0;
-    width: 19px;
-    height: 19px;
-    border: 1px solid #000;
-    border-radius: 22px;
-    background-image: url(../../../images/dist/accessories_left-arrow.svg);
+  &__item:first-child {
+    position: relative;
+    &::before {
+      position: absolute;
+      content: "";
+      top: 55%;
+      left: 0;
+      width: 19px;
+      height: 19px;
+      border: 1px solid #000;
+      border-radius: 22px;
+      background-image: url(../../../images/dist/accessories_left-arrow.svg);
+    }
+  }
+  &__item:not(:last-child) {
+    margin-right: 20px;
+  }
+  &__list {
+    position: relative;
+    margin-bottom: 4px;
   }
 }
-li:not(:last-child) {
-  margin-right: 20px;
-}
-ul {
-  position: relative;
-  margin-bottom: 4px;
-}
+
 .arrow-circle {
   position: absolute;
   height: 44px;
