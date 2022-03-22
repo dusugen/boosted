@@ -25,6 +25,7 @@
 .header__nav {
   display: flex;
   align-items: center;
+  width: 70%;
   ul {
     display: flex;
     align-items: center;
@@ -37,15 +38,22 @@
       line-height: 21px;
       font-family: "Roboto", sans-serif;
       letter-spacing: 1px;
-    }
-    li:last-child {
-      margin-right: 350px;
+      &:last-child {
+        margin-right: 0px;
+      }
     }
   }
-  .account {
-    margin-right: 11px;
-  }
+
   .bag {
     margin-right: 20px;
   }
+}
+
+.header__icons {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+.account {
+  margin-right: 11px;
 }

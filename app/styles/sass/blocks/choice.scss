@@ -37,10 +37,10 @@
     margin-bottom: 20px;
   }
   &__card--board {
-    background-image: url(../../../images/dist/choice_board.png);
+    background-image: url(../images/dist/choice_board.png);
   }
   &__card--rev {
-    background-image: url(../../../images/dist/choice_rev.png);
+    background-image: url(../images/dist/choice_rev.png);
   }
 }
 
@@ -57,7 +57,7 @@
     content: "";
     top: 1px;
     left: 107px;
-    background-image: url(../../../images/dist/choice_bolt.svg);
+    background-image: url(../images/dist/choice_bolt.svg);
     width: 29px;
     height: 47px;
   }
@@ -80,6 +80,6 @@
     width: 70px;
     border-bottom: 2px solid #cfcfcf;
     top: 25px;
-    left: 45%;
+    left: calc(50% - 35px);
   }
 }

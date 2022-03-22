@@ -1,0 +1,25 @@
+.footer {
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 19px;
+    margin-bottom: 32px;
+  }
+  &__left {
+    display: flex;
+  }
+  &__link {
+    font-size: 12px;
+    line-height: 19px;
+    color: #ff4a32;
+  }
+  &__text {
+    font-size: 13px;
+    line-height: 19px;
+  }
+
+  &__img {
+    max-height: 22px;
+    min-width: 36px;
+  }
+}
