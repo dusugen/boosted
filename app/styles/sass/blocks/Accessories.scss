@@ -51,6 +51,7 @@
     margin-right: 20px;
   }
   &__list {
+    display: flex;
     position: relative;
     margin-bottom: 4px;
   }
@@ -70,7 +71,7 @@
     content: "";
     height: 19px;
     width: 19px;
-    background-image: url(../../../images/dist/accessories_left-arrow.svg);
+    background-image: url(../images/dist/accessories_left-arrow.svg);
     top: 13px;
     left: 13px;
   }

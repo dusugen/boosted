@@ -10,6 +10,7 @@
 .header__bottom {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .header__logo {
@@ -22,36 +23,33 @@
     max-height: 36px;
   }
 }
-.header__nav {
+.nav__header {
   display: flex;
   align-items: center;
-  width: 70%;
-  ul {
-    display: flex;
-    align-items: center;
-    padding-left: 0px;
-    margin-top: 22px;
-    li {
-      margin-right: 22px;
-      font-size: 14px;
-      text-transform: uppercase;
-      line-height: 21px;
-      font-family: "Roboto", sans-serif;
-      letter-spacing: 1px;
-      &:last-child {
-        margin-right: 0px;
-      }
-    }
-  }
-
-  .bag {
-    margin-right: 20px;
+  width: 90%;
+}
+.bag {
+  margin-right: 20px;
+}
+.nav__list {
+  display: flex;
+  align-items: center;
+  padding-left: 0px;
+}
+.nav__item {
+  margin-right: 22px;
+  font-size: 14px;
+  text-transform: uppercase;
+  line-height: 21px;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1px;
+  &:last-child {
+    margin-right: 0px;
   }
 }
 
 .header__icons {
   display: flex;
-  align-items: center;
   margin-right: 20px;
 }
 .account {
